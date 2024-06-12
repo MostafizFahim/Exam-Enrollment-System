@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exam_Enrollment_System</string>
+    <string name="online">Online</string>
+    <string name="form_fees" />
+    <string name="general" />
+    <string name="_750" />
+    <string name="sc_st" />
+    <string name="obc" />
+    <string name="apply_now" />
+    <string name="admin_login" />
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "210901010181",
+    "project_id": "exam-enrollment-system-164d7",
+    "storage_bucket": "exam-enrollment-system-164d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210901010181:android:3a09154cc0f9b69ade596c",
+        "android_client_info": {
+          "package_name": "com.example.exam_enrollment_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210901010181-g5r8psqpefdef92bgdp3ttog459occ61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exam_enrollment_system",
+            "certificate_hash": "ba3e06fd0c637eb7eec3dd9c0bf42856484dd3f8"
+          }
+        },
+        {
+          "client_id": "210901010181-33trq7t0858jbk3g6aj18o9njn5v7m6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBalYKGLk8YBtk-DhA7kHR_bc6QtMaahUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210901010181-33trq7t0858jbk3g6aj18o9njn5v7m6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

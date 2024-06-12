@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="#685EC0">
+
+    <TextView
+        android:id="@+id/welcome_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="Welcome User"
+        android:textColor="#FBFBFB"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/enroll_for_exam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_user"
+        android:layout_marginHorizontal="40dp"
+        android:layout_alignEnd="@id/welcome_user"
+        android:layout_alignStart="@id/welcome_user"
+        android:text="Enroll For An Exam"
+        android:textSize="25sp"
+        app:backgroundTint="#D6D4E3"
+        android:textColor="#685EC0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/view_application_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enroll_for_exam"
+        android:layout_marginHorizontal="40dp"
+        android:layout_alignEnd="@id/welcome_user"
+        android:layout_alignStart="@id/welcome_user"
+        android:text="View Application Status"
+        android:textSize="25sp"
+        app:backgroundTint="#D6D4E3"
+        android:textColor="#685EC0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_application_status"
+        android:layout_marginHorizontal="40dp"
+        android:layout_alignEnd="@id/welcome_user"
+        android:layout_alignStart="@id/welcome_user"
+        android:text="Edit Profile"
+        android:textSize="25sp"
+        app:backgroundTint="#D6D4E3"
+        android:textColor="#685EC0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_profile"
+        android:layout_marginHorizontal="40dp"
+        android:layout_alignEnd="@id/welcome_user"
+        android:layout_alignStart="@id/welcome_user"
+        android:text="Logout"
+        android:textSize="30sp"
+        app:backgroundTint="#D6D4E3"
+        android:textColor="#685EC0"
+        android:padding="10dp"
+        />
+
+
+
+
+</RelativeLayout>

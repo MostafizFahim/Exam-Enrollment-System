@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form2Activity">
+
+    <TextView
+        android:id="@+id/personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:text="Upload Documents"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="6dp"
+        android:layout_marginTop="6dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#A382FF"
+        android:layout_below="@+id/personal_info"
+        />
+
+    <TextView
+        android:id="@+id/chooseImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Image"
+        android:layout_below="@id/divider1"
+        android:textSize="22sp"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="6dp"
+        />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageV"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:paddingVertical="10dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="40dp"
+        android:text="Submit "
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+
+        app:backgroundTint="#E6BBFD"
+
+        app:iconTint="@color/purple_500" />
+
+    <Button
+        android:id="@+id/Upload_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseImg"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:paddingVertical="10dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="40dp"
+        android:text="UPLOAD"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:backgroundTint="#E6BBFD"
+        app:icon="@drawable/upload_docs"
+
+        app:iconTint="@color/purple_500" />
+
+    <ImageView
+        android:id="@+id/imageV"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/divider1"
+        android:src="@drawable/add_image"
+
+
+        />
+
+
+
+</RelativeLayout>

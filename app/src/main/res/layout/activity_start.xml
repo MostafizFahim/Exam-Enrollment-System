@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="#9AEBC8"
+    >
+
+    <TextView
+        android:id="@+id/Exam_Enrollment_System"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:text="Exam Enrollment System (EES)"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:fontFamily="@font/roboto"
+        />
+    <ImageView
+        android:id="@+id/login_pic"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/log_background"
+
+
+        />
+
+    <TextView
+        android:id="@+id/continue_with"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_below="@+id/Exam_Enrollment_System"
+        android:layout_marginTop="80mm"
+        android:layout_marginStart="10dp"
+
+        android:text="Continue With..."
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100mm"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/continue_with"
+        android:paddingTop="0sp"
+        android:layout_marginTop="15dp"
+        android:text="Email "
+        android:textSize="30sp"
+        android:textColor="#69DF92"
+        app:backgroundTint="#FFFFFF"
+        />
+
+</RelativeLayout>
